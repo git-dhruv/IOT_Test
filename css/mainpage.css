@@ -12,7 +12,9 @@ border-radius: 15px 50px 30px 5px;
 }
 
 body{
-background-image: url('https://cdn.pixabay.com/photo/2017/02/15/11/05/texture-2068283_960_720.jpg');
+/*background-image: url('https://cdn.pixabay.com/photo/2017/02/15/11/05/texture-2068283_960_720.jpg');
+*/
+background-color: #FFFFFF;
 }
 
 .channel:hover {
@@ -25,3 +27,11 @@ background-image: url('https://cdn.pixabay.com/photo/2017/02/15/11/05/texture-20
     display:block;
     z-index:999;
 }
+
+.temp{
+	background-color: transparent;
+	width:70px;
+	height:111px;
+}
+
+
