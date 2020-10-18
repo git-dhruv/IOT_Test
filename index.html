@@ -1,6 +1,5 @@
 <html>
 	<head>
-
 		<!--Adding JavaScript and CSS Scripts-->
 		<link rel="stylesheet" href="css/mainpage.css">
 		<script src = "js/iot.js"></script>
@@ -8,20 +7,8 @@
 	</head>
 	<body>
 		<h1>Forest Safety and Monitoring System</h1>
-		<table border=0>
-		<tr><td>
-		<tt>Blah Blah</tt>
-		</td>
-		<td>
-			<tt>Poaching gives money</tt>
-		</td>
-<!--		<td><svg id="svg1" style="width: 3.5in; height: 1in">
-		<circle id="circle1" r="40" cx="50" cy="50" style="fill: red; stroke: black;      stroke-width: 2"/>
-		</svg>
-
-		</td>-->
-		<td></td>
-		</tr>
+		<div id="dash">
+		<table border=0 align="center">
 		
 		<tr>
 			<td>
@@ -36,10 +23,23 @@
 			</tr>
 			
 			<tr>
-				<td>
-					<iframe width="450" height="260" src="https://thingspeak.com/channels/1191743/maps/channel_show"></iframe>
-				</td>
-				<td>
+				<td><iframe frameBorder="0" allowtransparency="true" src="media/images/tilt.png" class="tilt" id="tilt" onmouseover='change_to_iframe("tilt")' onmouseleave="back_to_img('tilt')"></iframe></td>
+			
+			
+			<td><iframe frameBorder="0" allowtransparency="true" src="media/images/pir.png" class="pir" id="pir" onmouseover='change_to_iframe("pir")' onmouseleave="back_to_img('pir')"></iframe></td>
+			
+			<td>
+				<h2>Emergency Contacts</h2>
+				<ul>
+					<li>Fire: 101</li>
+					<li>Health: 108</li>
+					<li>Police: 100</li>
+					<li>General: 112</li>
+				</ul>
+			</td>
+			</tr>
+			<tr>
+			<td>
 			<iframe frameBorder="0"  width="450" height="260" src="https://thingspeak.com/channels/1191743/widgets/225578"></iframe>
 
 		</td>
@@ -48,14 +48,11 @@
 		</td>
 		</tr>
 		</table>
-		<table><tr>
-		<td>
-		</td>	
-		<td><tt>Reach us at <a href=https://www.amulindustries.com/>Amul Industries/</a></tt><br />
-		<tt>Developed by Group-15</tt></td>
-		</tr>
-
-		</table>
+		</div>
+		<div style="background-color:f5f7fa;vertical-align: middle;" style="display:block"><iframe width="450" height="260" src="https://thingspeak.com/channels/1191743/maps/channel_show"></iframe>
+		<p style="width: 400px; height: 260px;display:inline-block;vertical-align: top;">Forest Safety and Monitoring System developed by Mech Engineers using worst coding skills possible</p>
+		<iframe style=" display: inline-block; align:right;vertical-align: top;" src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Asia%2FKolkata" height="115" frameborder="0" seamless></iframe> 
+		</div>
 		
 	</body>
 </html>
